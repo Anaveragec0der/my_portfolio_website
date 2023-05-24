@@ -2,9 +2,10 @@ import Section from "./common/Section";
 import {FaGithub, FaExternalLinkSquareAlt} from "react-icons/fa"
 import p1 from "../assets/p1.png"
 import p2 from "../assets/p2.png"
-import p3 from "../assets/p1.png"
-import p4 from "../assets/p2.png"
+import p3 from "../assets/p3.png"
+import p4 from "../assets/p4.png"
 import p5 from "../assets/p5.png"
+import p6 from "../assets/p6.png"
 export default function Portfolio(){
     const projects=[
         {
@@ -26,14 +27,14 @@ export default function Portfolio(){
             image:p3,
             title:"To-do List",
             github:"https://github.com/Anaveragec0der/todolist-v2",
-            demo:"https://a-to-do-list.onrender.com"
+            demo:"https://a-to-do-list.onrender.com/"
         },
         {
             id:4,
             image:p4,
             title:"News letter signup page",
             github:"https://github.com/Anaveragec0der/newsLetterSignup",
-            demo:"https://newslettersignup-6cgo.onrender.com"
+            demo:"https://newslettersignup-6cgo.onrender.com/"
         },
         {
             id:5,
@@ -43,6 +44,13 @@ export default function Portfolio(){
             demo:"https://anaveragec0der.github.io/SimonGame"
         },
     ]
+    const keeper={
+            id:6,
+            image:p6,
+            title:"Keeper App",
+            github:"https://github.com/Anaveragec0der/keeperApp"
+        }
+        
     return(
         <Section 
         title="Portfolio 🗃️"
@@ -65,6 +73,13 @@ export default function Portfolio(){
                         </div>
                     </div>
                 ))}
+                                    <div className="max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden">
+                        <img src={keeper.image} alt={keeper.title} className="w-2/3" />
+                        <div className="w-1/3 flex flex-col items-center justify-evenly p-1">
+                            <h2 className="text-xl">{keeper.title}</h2>
+                            <a className="text-lg md:text-xl lg:text-2xl cursor-pointer duration-150 hover:scale-110" href={keeper.github} target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                        </div>
+                    </div>
             </div>
 
         </Section>
