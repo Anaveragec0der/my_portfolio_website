@@ -15,7 +15,7 @@ export default function Hero(){
     ]
     window.addEventListener('scroll',function(){
         const downArrow=document.querySelector('.down-arrow')
-        if(this.scrollY>=150) downArrow.classList.add('hide-down-arrow')
+        if(this.scrollY>=150 && window.innerWidth > 768) downArrow.classList.add('hide-down-arrow')
         else downArrow.classList.remove('hide-down-arrow')
     })
     return(
