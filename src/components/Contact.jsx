@@ -28,7 +28,7 @@ export default function Contact() {
       <div className="flex flex-col items-center justify-center gap-8 text-center">
         <div>
           {" "}
-          <img src={contact} alt=" contact-information" className="w-32 h-32" />{" "}
+          <img src={contact} alt=" contact-information" className="w-32 h-32 ml-7" />{" "}
         </div>
         <div>
           <p className="text-sm md-text-base max-w-xs md:max-w-lg font-extralight">
