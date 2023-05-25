@@ -32,7 +32,7 @@ export default function Hero() {
       <p className="max-w-xl font-light text-gray-500">
         Hello <span className="animate-pulse text-4xl">👋</span>, Welcome to my
         portfolio I'm a Full stack developer. I hold a Master's degree in
-        Computer Applications. Problem solving is something that has always
+        Computer Application. Problem solving is something that has always
         intrigued me and it is what made me start programming. I also love
         making vector arts, it is what made me pick up full stack development as
         a carrer path because now I can be creative when I am working at the
