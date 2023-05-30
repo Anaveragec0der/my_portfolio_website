@@ -44,7 +44,8 @@ export default function Hero() {
       <div className="flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/3">
         {SOCIAL.map(({ id, link, icon }) => {
           return (
-            <a key={id} href={link} target="_blank" rel="noopener noreferrer">
+            <a key={id} href={link} target="_blank" rel="noopener noreferrer" className="duration-200 ease-in-out hover:text-rose-600"
+            >
               {icon}
             </a>
           );
@@ -54,6 +55,7 @@ export default function Hero() {
           href="mailto:priyanshuvishwakarma445@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="duration-200 ease-in-out hover:text-rose-600"
         >
           {gmail.icon}
         </a>
@@ -64,7 +66,7 @@ export default function Hero() {
         <img
           src={avatar}
           alt="avatar"
-          className="scale-110 w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600 rounded-2xl pt-5"
+          className="scale-110 w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600  rounded-2xl pt-5"
         />
         <a
           href="/Priyanshu'sResume.pdf"

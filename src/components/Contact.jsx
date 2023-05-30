@@ -50,7 +50,7 @@ export default function Contact() {
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="duration-200 ease-in-out hover:text-rose-600"
+                className="duration-200 ease-in-out hover:text-teal-500"
               >
                 {icon}
               </a>
@@ -58,6 +58,7 @@ export default function Contact() {
           })}
           <a
             key={gmail.id}
+            className="duration-200 ease-in-out hover:text-teal-500"
             href="mailto:priyanshuvishwakarma445@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
