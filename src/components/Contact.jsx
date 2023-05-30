@@ -37,7 +37,7 @@ export default function Contact() {
           />{" "}
         </div>
         <div>
-          <p className="text-sm md-text-base max-w-xs md:max-w-lg font-extralight">
+          <p className="text-sm md-text-base max-w-xs md:max-w-lg font-light text-gray-500 ">
             I am open to talk regarding freelancing or full-time opportunities.
             Feel free to contact me using your preferred medium
           </p>
